@@ -1,0 +1,134 @@
+body
+{
+    background: url(eco.jpg) no-repeat;
+     
+    background-size: 100%; 
+}
+.VIP
+{
+  background: url(culture.jpg);  
+    position: relative;
+    font-family: cursive;
+}
+.p
+{
+    position: absolute;
+    background: url(gif.png);
+    color: black;
+
+}
+.pp
+{
+    font-size: 140%;
+    
+    background: url(culture.jpg);
+    font-family:sans-serif;
+    
+    
+
+}
+.p1
+{
+   
+    background: url(gif.png);
+  
+    right:  40px;
+}
+
+.table1
+{
+    border-collapse: collapse;
+    position: absolute;
+    font-family: cursive;
+    font-size: 20px;
+    background:url(gif.png);
+    border: 3px solid black;
+    
+    width:100%;
+    position:absolute;
+    left:20px;
+    top:80%;
+    margin-right:10px; 
+    width:400px;
+    left:1%;
+}
+.ppp
+{
+    background: url(culture.jpg);
+    font-size: 150%;
+   
+}
+.table2
+{
+    border-collapse: collapse;
+    position: absolute;
+    border: 3px solid black;
+    font-family: cursive;
+    font-size: 20px;
+     background:url(images.png);
+     border: 3px solid black;
+    
+     width:100%;
+   position:absolute;
+    left:20px;
+    top:70%;
+    margin-right:10px; 
+    width:400px;
+    left:33%;"
+
+}
+td{
+    border: 2px solid black;
+}
+th
+{
+    border:4px solid black;
+}
+.table3
+{
+    margin: auto;
+    position: absolute;
+    width:60%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    font-family: cursive;
+    font-size: 20px;
+     background:url(gif.png);
+         border: 3px solid black;
+   
+    width:100%;
+    position:absolute;
+    left:20px;top:370px;
+    margin-right:10px; 
+    width:400px;
+    left:65%;
+    top: 60%;
+
+    
+}
+.GG
+{
+ 
+    text-decoration-color: aqua;
+    font-family: fantasy;
+    font-size: 38px;
+    color: fuchsia;
+    text-align: center;
+}
+.mg
+{
+    left:1px;
+    float: left;
+    width: 430px;
+    height: 320px;
+    margin: auto;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+   
+}
+
+th,td
+{
+    border:1px solid grey;
+}

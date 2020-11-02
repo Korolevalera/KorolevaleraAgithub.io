@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Реєстрація волонтерів</title>
+        <link rel ="stylesheet" href="POPUP_REGI_VOLUN.css" >
+    </head>
+     <body>
+         <header>
+        <main>
+            <div class="button js-button-campaign"><span>УВАГА</span></div>
+        </main>
+        <div class="overlay1 js-overlay1-campaign">
+        <div class="pop js-pop-campaign">
+            <h2 align="center">УВАГА!</h2>
+           <h3>РЕЄСТРАЦІЯ ОБОВ'ЯЗКОВА!"</h3>
+            <div class="close-popup js-close-popup-campaign "></div>
+            </div>
+             </div>
+   </header>
+         <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+        
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+         <script src="JQuerry.js" type="text/javascript"></script>
+               <div class="fullscreen-bg">
+                                     <div class="overlay">
+                                         
+                                          <form action="POST.php" method="post"  id="form"  class="form" name='myform'>
+                                            <table class="table">
+                                                <caption>Реєстрація волонтерів</caption>
+                                                <tr>
+                                                    <td>Логін:</td>
+                                                    <td><div class='name'>
+                                                         <input   type="text" id="name" name='name' class="I" placeholder="Введіть свій логін" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}"></div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Пароль:</td>
+                                                    <td><div class='password'>
+                                                        <input type="password" name="password" id="password"
+                                                               placeholder="Введіть свій пароль"  class="P" maxlength="9"
+                                                               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}"></div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Email:</td>
+                                                    <td><div class='email'>
+                                                        <input type="email" class="E" name="email" id="email"
+                                                               pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+"
+                                                                placeholder="Введіть свою почту"></div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Стать:</td>
+                                                    <td>
+                                                        <input type="radio" name="gender" value="w">Жінка
+                                                         <input type="radio" name="gender" value="m">Чоловік
+                                                        <input type="radio" name="стать">Інше
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Телефон:</td>
+                                                    <td>
+                                                        <select name="codeN">
+                                                            <option>096</option>
+                                                            <option selected>097</option>
+                                                            <option>063</option>
+                                                        </select>
+                                                        <div class='email'>
+                                                            <input type="tel" name="pelefon"  class="N" id="number" placeholder="23ХХХХХ" maxlength="7"  pattern="([0-9]{5,10})"></div>
+                                                    </td>
+                                                
+                                                <tr>
+                                            
+                                                    <td >
+                                                         <input  type="submit" name="submit" value="Відправити" class="inp"></td>
+                                                
+                                                    </tr>
+                                                
+                                         </table>  
+                                             </form>
+                                        
+                                    </div>
+           <video src="%D0%A3%D0%BD%D0%B8%D0%BA.mp4" autoplay muted loop class="fullscreen-bg__video"></video>
+        </div>
+         <script src="popup.js" type="text/javascript"></script>
+         
+	
+         
+         
+         
+         
+    </body> 
+ 
+     
+
+</html>

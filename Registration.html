@@ -1,0 +1,65 @@
+<!DOCTYPE html >
+<html lang="ua">
+ <head>
+  <meta  charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration</title>
+     <link rel="stylesheet" href="registration.css">
+ </head>
+ <body>
+     
+  <form class="myform" id="myform" method="post" action="Vol.php">
+      <div> 
+          <input required type="text" id="first_name" name="first_name" pattern="^[А-Яа-яЁёЇїІіЄєҐґ']+$" placeholder=" ">
+          <label for="first_name">First name</label>
+          <div class="requirements">
+              Некоректе введення імені!
+              Введіть літери-КИРИЛИЦІ!
+          </div>
+      </div>
+      <div>
+          <input required type="text" id="last_name" name="last_name" pattern="^[А-Яа-яЁёЇїІіЄєҐґ']+$"
+ placeholder=" " >
+          <label for="last_name">Last name</label>
+          <div class="requirements">
+              Некоректе введення прізвища!
+              Введіть літери-КИРИЛИЦІ!
+          </div>
+      </div>
+      <div>
+          <input required type="email" id="email" name ="email" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" placeholder=" ">
+          <label for="email">Email address</label>
+          <div class="requirements">
+              Неправильний email!
+              Введіть латинські літери та обовязковий символ(@)
+          </div>
+      </div>
+      
+      <div>
+          <input required type="password" id="password" name ="password" placeholder=" "
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}"
+>
+          <label for="password" >Password</label>
+           <div class="requirements">
+            Некоректний пароль!
+               Введіть не менше однієї великої літери на латині та не менше одної цифри.
+               Не менше 7 символів!
+               
+          </div>
+          
+      </div>
+	  <button type="submit">REPORTING</button>
+      
+     </form>
+     
+     
+   
+     
+	 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+        
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script type='text/javascript' src="AJAX.js"></script>
+	</body>
+</html>
